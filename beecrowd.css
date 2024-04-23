@@ -1,0 +1,214 @@
+@import url('https://fonts.google.com/share?selection.family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-image: url('img/beecrowd.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Defina outras propriedades de estilo se necessário */
+}
+
+/* Estilos adicionais para garantir que todo o conteúdo esteja visível */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: rgba(51, 51, 51, 0.5); /* Cor de fundo do cabeçalho com 50% de transparência */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 20px; /* Espaçamento interno do cabeçalho */
+    display: flex; /* Para alinhar os itens horizontalmente */
+    justify-content: space-between; /* Para distribuir os itens uniformemente */
+    align-items: center; /* Para alinhar verticalmente os itens */
+}
+
+/* Estilos para a logo */
+.logo img {
+    height: 50px; /* Altura da logo */
+}
+
+/* Estilos para a área de pesquisa */
+.search {
+    width: 493px; /* largura desejada */
+    height: 44px; /* altura desejada */
+    margin: 0 auto; /* centralizar horizontalmente */
+    display: flex; /* Para alinhar os itens horizontalmente */
+    border-radius: 22px; /* metade da altura para arredondar */
+    overflow: hidden; /* Para esconder os cantos dos elementos filhos que ultrapassam o contêiner */
+}
+
+.search input {
+    flex-grow: 1; /* O campo de pesquisa irá ocupar todo o espaço disponível */
+    padding: 8px 10px; /* Espaçamento interno do campo de pesquisa */
+    border: none; /* Remove a borda do campo de pesquisa */
+    border-radius: 22px 0 0 22px; /* Borda arredondada no lado esquerdo */
+    outline: none; /* Remove o contorno ao focar */
+    background-color: rgb(255, 255, 255); /* Cor de fundo do campo de pesquisa com 70% de transparência */
+}
+
+.search button {
+    padding: 8px 15px; /* Espaçamento interno do botão */
+    background-color: #fefefe; /* Cor de fundo do botão */
+    border: none; /* Remove a borda do botão */
+    color: #fff; /* Cor do texto no botão */
+    border-radius: 0 22px 22px 0; /* Borda arredondada no lado direito */
+}
+
+/* Estilos para os botões */
+.botoes button {
+    border-radius: 45px; /* Define o raio da borda */
+    margin-right: 10px; /* Espaçamento entre os botões */
+    border: none; /* Remove a borda padrão */
+    padding: 1px 20px; /* Espaçamento interno dos botões */
+    background-color: #555; /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto dos botões */
+    cursor: pointer; /* Cursor ao passar sobre os botões */
+}
+
+/* Estilos para os botões ao passar o mouse */
+.botoes button:hover {
+    background-color: #777; /* Cor de fundo dos botões ao passar o mouse */
+}
+
+
+/* Estilos para os botões */
+.botoes button {
+    border-radius: 45px; /* Define o raio da borda */
+    margin-right: 10px; /* Espaçamento entre os botões */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    background-color: #555; /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto dos botões */
+    cursor: pointer; /* Cursor ao passar sobre os botões */
+}
+
+/* Estilos para os botões ao passar o mouse */
+.botoes button:hover {
+    background-color: #777; /* Cor de fundo dos botões ao passar o mouse */
+}
+
+
+
+
+/* Estilos para o conteúdo */
+.conteudo {
+    position: absolute;
+    left: 100px; /* Posição x */
+    top: 180px; /* Posição y */
+    width: 750px; /* Largura */
+    height: 500px; /* Altura */
+    background-color: rgba(255, 255, 255, 0); /* Cor de fundo com transparência */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+
+
+/* Estilos para o conteúdo interno */
+.conteudo-interno {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para o título */
+.conteudo h2 {
+    text-align: left; /* Alinhamento do texto do título à esquerda */
+    margin-left: 0; /* Remover qualquer margem à esquerda padrão */
+    margin-bottom: 20px; /* Espaçamento inferior aumentado */
+}
+
+.texto h2 {
+    margin: 10; /* Remover margem padrão do título */
+}
+/* Estilos para o texto */
+.texto {
+    font-size: 25px; /* Tamanho da fonte */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+.texto p {
+    font-size: 25px; /* Tamanho da fonte */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.texto p {
+    margin: 10; /* Remover margem padrão do parágrafo */
+}
+
+/* Estilos para os botões */
+.botoes button {
+    border-radius: 45px; /* Define o raio da borda */
+    margin-right: 10px; /* Espaçamento entre os botões */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    background-color: #5555555a; /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto dos botões */
+    cursor: pointer; /* Cursor ao passar sobre os botões */
+}
+
+/* Estilos para os botões ao passar o mouse */
+.botoes button:hover {
+    background-color: #777; /* Cor de fundo dos botões ao passar o mouse */
+}
+
+
+.botoes button {
+    width: 187.78px; /* Largura do botão */
+    height: 47.67px; /* Altura do botão */
+    margin: 0 5px; /* Espaçamento entre os botões */
+    background-color: #5555554b; /* Cor de fundo dos botões */
+    border: none; /* Remove a borda dos botões */
+    color: #fff; /* Cor do texto nos botões */
+    border-radius: 89px; /* Borda arredondada */
+    cursor: progress; /* Cursor ao passar sobre os botões */
+}
+
+/* Estilos para a imagem centralizada */
+.imagem-centralizada {
+    position: fixed; /* Fixa a posição da imagem */
+    right: 560px; /* Alinha a imagem a 20 pixels da direita */
+    top: 50%; /* Posiciona a imagem no centro verticalmente */
+    transform: translateY(-50%); /* Ajusta a posição verticalmente */
+    width: 290px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+
+
+
+.carousel {
+    overflow: hidden;
+    width: 300px; /* Largura do carrossel */
+    height: 200px; /* Altura do carrossel */
+    position: relative;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+    cursor: pointer; /* Altera o cursor para indicar que a imagem é clicável */
+  }
+  
+  .carousel-inner img:hover {
+    transform: scale(1.2); /* Aumenta o tamanho da imagem ao passar o mouse */
+    z-index: 1; /* Garante que a imagem aumentada esteja acima das outras */
+  }
+  
